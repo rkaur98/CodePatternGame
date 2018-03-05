@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Flamenco:300,400|Inconsolata:400,700|Lobster');
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html{
+    background: #ddd;
+}
+
+body{
+    width:1000px;
+    min-height: 95vh;
+    margin: 10px auto;
+    background: white;
+    box-shadow: 0 0 10px black;
+    
+}
+
+table{
+	background: #ddd;
+}
+
+tr{
+	line-height: 1;
+}
+
+main{
+	width: 60%;
+	margin: 0 auto;
+}
+
+.hide{
+	display: none;
+}
+
+header{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 10vh;
+	line-height: 1;
+	background: #ff3300;
+	display: flex;
+	
+	justify-content: center;
+	align-items: center;
+}
+
+header h1{
+	font-family: "lobster";
+	font-weight: 300;
+	font-size: 2em;
+	color: white;
+	
+}
+
+h2{
+	font-family: "Inconsolata";
+	font-weight: 600;
+	font-size: 1.5em;
+	margin: 0;
+}
+
+h3{
+	font-family: "Raleway";
+	font-weight: 600;
+	font-size: 1em;
+}
+
+.index{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+	margin: 50px auto 0 auto;
+}
+
+.back{
+	text-decoration: none;
+	color: #ff3300;
+	font-size: 1.2rem;
+	font-family: "Inconsolata";
+	font-weight: 600;
+	padding: 10px;
+}
+
+.ref{
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+	margin: 10px 0;
+	background-color: #ff3300;
+	font-size: 1.5rem;
+	font-family: "Inconsolata";
+	font-weight: 600;
+	box-shadow: 0 0 10px black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.btn{
+	color: white;
+	padding: 5px 20px;
+	background-color: #ff3300;
+	font-size: 1.5rem;
+	font-family: "Inconsolata";
+	font-weight: 600;
+	box-shadow: 0 0 2px black;
+}
+
+#container h2{
+	text-align: center;
+}
+
+#resultdiv{
+	display: flex;
+	justify-content: space-around;
+	padding: 10px 0;
+}
+
+#resultdiv div{
+	flex-basis: 30%;
+}
+
+#done{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.pattern{
+	margin: 0 auto;
+	width: 90%;
+	padding-top: 10px;
+	border-top: 1px dashed black;
+}
+.sameline{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.sameline *{
+	flex-basis: 50%;
+}
